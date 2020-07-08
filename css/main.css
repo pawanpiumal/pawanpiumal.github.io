@@ -1,0 +1,83 @@
+nav.nav{
+    width:100%;
+    background-color: rgba(29, 29, 29, 0.65);
+    box-shadow: 0 0 10px black;
+    align-items: center;
+    padding-left: 60px;
+}
+
+nav img.logo{
+    filter: invert(63%) sepia(88%) saturate(434%) hue-rotate(2deg) brightness(93%) contrast(86%);
+    width:100px;
+    height:100px;
+    margin:15px 0 15px 0;
+}
+
+@font-face{
+    font-family: blowBrush;
+    src: url(blowbrush.ttf);
+}
+
+nav h1.title{
+    color:goldenrod;
+    margin-left: 40px ;
+    font-family: blowbrush, Arial, Helvetica, sans-serif;
+    font-size:4em;
+    user-select: none;
+}
+
+body{
+    background-color: rgba(18,18,18,1);
+}
+.card-image{
+    width:100%;
+}
+
+.card-image-r{
+    border-radius: 0 0.7rem 0.7rem 0;
+}
+
+.image-r{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.card-image-l{
+    border-radius: 0.7rem 0 0 0.7rem;
+}
+
+.image-l{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.card{
+    margin: 20px 0;
+    flex-direction: row;
+    box-shadow: 0 0 10px rgb(87, 74, 0);
+    background-color: rgba(29, 29, 29, 0.65);
+    color:goldenrod;
+    border-radius: 0.7rem;
+
+}
+
+.goto-btn{
+    text-decoration: none;
+    cursor: pointer;
+    color:goldenrod;
+    background-color: rgba(18,18,18,1);
+    padding: 12px 15px;
+    align-items: center;
+    border-radius: 5rem;
+}
+
+.goto-btn:hover{
+    background-color:rgb(158, 119, 19) ;
+    text-decoration: none;
+    color: black;
+}
+
+.description{
+    padding-top: 10px;
+}
+
